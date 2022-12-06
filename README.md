@@ -8,9 +8,10 @@
 
 ## Instalação do Projeto
 
-<p align="center">É necessario a intalação da pasta <i>node_modules</i></p>
 
-<p >Para dar inicio ao projeto de :<p>
+
+<p >Para dar inicio ao projeto<p>
+<p>É necessario a intalação da pasta <i>node_modules</i> de:</p>
 
 ### `npm i`
 
