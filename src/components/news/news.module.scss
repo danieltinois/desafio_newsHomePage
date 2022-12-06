@@ -1,0 +1,157 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.main_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image_web_desktop {
+  user-select: none;
+}
+
+.content_home {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.h1_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 6em;
+}
+
+.h1_home h1 {
+  font-size: 4em;
+}
+
+.readMore p {
+  font-size: 16px;
+  padding-bottom: 55px;
+}
+
+.bnt_readMore {
+  width: 180px;
+  height: 50px;
+  color: #fff;
+  border: none;
+  background: hsl(5, 85%, 63%);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.5s ease;
+}
+
+.bnt_readMore:hover {
+  background: hsl(240, 100%, 5%);
+}
+
+.content_news {
+  margin-left: 25px;
+}
+
+.main_new {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 52vh;
+  background: hsl(240, 100%, 5%);
+}
+
+.main_new ul {
+  list-style-type: none;
+}
+
+.main_new li {
+  margin-right: 23px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.342);
+  border-radius: 5px;
+}
+
+.main_new li:last-child {
+  border-bottom: 0;
+}
+
+.main_new * {
+  background: hsl(240, 100%, 5%);
+  color: #fff;
+}
+
+.main_new h1 {
+  font-size: 2.7em;
+  color: hsl(35, 77%, 62%);
+  padding: 20px 0px;
+}
+
+.main_new h2 {
+  width: 90%;
+  font-size: 20px;
+  padding: 20px 0px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.main_new h2:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.main_new p {
+  font-size: 16px;
+  padding-bottom: 2.5em;
+}
+
+// .lista_imgs {
+//   display: flex;
+//   justify-content: space-around;
+//   flex-direction: row;
+//   list-style: none;
+// }
+
+.testeUl {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.imgs {
+  width: 125px;
+  height: 160px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.testeLi {
+  display: flex;
+  flex-direction: row;
+}
+
+.testeh1 {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  color: hsl(233, 8%, 79%);
+  font-size: 30px;
+}
+
+.testeh2 {
+  font-size: 16px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+.testep {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.testeLi2 {
+  width: 10vw;
+}
